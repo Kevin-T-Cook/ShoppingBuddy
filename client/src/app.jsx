@@ -8,7 +8,7 @@ import React, {useEffect, useState} from "react";
 import {useSelector} from "react-redux";
 import Posts from "./pages/Posts";
 import UserPosts from "./pages/UserPosts";
-import {useGetPostsQuery, useGetProductsQuery} from "./reducers/api";
+import {useGetPostsQuery, useGetProductsQuery} from "../../server/api";
 
 function App() {
 

@@ -1,4 +1,4 @@
-import {useAddPostMutation, useDeletePostMutation, useGetUserPostsQuery} from "../reducers/api";
+import {useAddPostMutation, useDeletePostMutation, useGetUserPostsQuery} from "../../../server/api";
 import {useSelector} from "react-redux";
 import {useEffect, useState} from "react";
 
